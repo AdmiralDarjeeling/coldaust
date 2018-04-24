@@ -1,0 +1,28 @@
+add_namespace = ASTMIL
+
+country_event = {
+	id = ASTMIL.1
+	title = ASTMIL.1.t
+	desc = ASTMIL.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASTMIL.1.a
+		load_oob = AST_Daring
+	}
+}
+country_event = {
+	id = ASTMIL.2
+	title = ASTMIL.2.t
+	desc = ASTMIL.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ASTMIL.2.a
+		load_oob = AST-Sydney
+	}
+}

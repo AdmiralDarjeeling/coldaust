@@ -1,0 +1,18 @@
+add_namespace = ANZUS
+
+country_event = {
+	id = ANZUS.1
+	title = ANZUS.1.t
+	desc = ANZUS.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ANZUS.1.a
+		AST = { annex_country = { target = NZL } }
+	}
+	option = {
+		name = ANZUS.1.b
+	}
+}
